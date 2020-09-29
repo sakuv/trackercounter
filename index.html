@@ -39,12 +39,15 @@
 	  </div>
       <div class="col-sm">
 
-		  <label for="trackersize">Tracker sticker size:</label><br>
+		  <label for="trackersize">Optimal sticker size:</label><br>
 		  <input type="number" id="trackersize" name="trackersize" data-suffix="mm" readonly> <br><br>
 		  <label for="trackerdistance">Tracker stickers distance (avg):</label><br>
-		  <input type="number" id="trackerdistance" name="trackerdistance" data-suffix="cm" readonly> <br><br>
+		  <input type="number" id="trackerdistance" name="trackerdistance" data-suffix="cm" readonly> 
+		  <span class="info">Distance between markers should vary from -20% to +40%</span><br><br>
 		  <label for="trackercount">Approximate sticker count:</label><br>
-		  <input type="number" id="trackercount" name="trackercount" data-suffix="pcs" readonly><br><br>
+		  <input type="number" id="trackercount" name="trackercount" data-suffix="pcs" readonly>
+	      <span class="info">This is estimation based on your camera area.</span><br><br>
+
 	  </div>
 
     </div>

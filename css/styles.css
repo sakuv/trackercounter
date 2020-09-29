@@ -5,3 +5,7 @@
             max-width: 75%;
         }
 label{font-weight: bold;}
+.info{
+    color: gray;
+    font-size: smaller;
+}

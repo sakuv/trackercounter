@@ -1,9 +1,4 @@
-        .input-group, input.test-value-input {
-            max-width: 75%;
-        }
-        .input-group-wide {
-            max-width: 75%;
-        }
+
 label{font-weight: bold;}
 .info{
     color: gray;
